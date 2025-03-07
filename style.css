@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Changed font */
+    margin: 0;
+    padding: 0;
+    background-image: url('sifar safar.jpg'); /* New background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #555; /* Softer text color */
+    text-align: center;
+}
+
+header {
+    background-color: #1abc9c; /* Teal header color */
+    color: #ffffff; /* White header text color */
+    padding: 30px 0;
+}
+
+h1 {
+    font-family: 'Cinzel', serif; /* Elegant serif font for header */
+    font-size: 3.2em; /* Slightly larger header size */
+    color: #e74c3c; /* Bright red for heading */
+    letter-spacing: 2px; /* Added letter spacing */
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600; /* Slightly bolder subheading */
+    color: #8e44ad; /* Purple subheading color */
+    letter-spacing: 1px; /* Added letter spacing */
+}
+
+.about, .lyrics {
+    max-width: 750px; /* Increased width */
+    margin: 30px auto;
+    padding: 25px; /* Added more padding */
+    background: rgba(255, 255, 255, 0.85); /* Lighter transparency */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Larger shadow */
+    border-radius: 20px; /* Rounded corners */
+}
+
+blockquote {
+    font-family: 'Times New Roman', serif; /* Elegant blockquote font */
+    font-style: italic; /* Kept italic style */
+    font-size: 1.3em; /* Increased font size */
+    line-height: 1.8; /* Slightly larger line height */
+    border-left: 10px solid #f39c12; /* Golden left border */
+    padding-left: 20px; /* Increased padding */
+    color: #2c3e50; /* Darker blockquote text */
+    font-weight: bold; /* Bold blockquote text */
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #34495e; /* Dark footer background */
+    color: #ecf0f1; /* Light footer text color */
+    text-transform: uppercase; /* Uppercase footer text */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .about, .lyrics {
+        padding: 25px;
+    }
+
+    blockquote {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .about, .lyrics {
+        margin: 20px;
+    }
+}
